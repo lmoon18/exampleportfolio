@@ -1,0 +1,47 @@
+body {
+background-color: #ffccff;
+color:  #404040;
+font-family: "century";
+}
+
+#pic1 img { box-shadow: 8px 8px 10px #aaa; border-style: dotted;}
+ 
+* {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+body {
+  line-height: 1.3;
+}
+
+.date {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin: 0.5em 0;
+}
+
+.year {
+  font-size: 7rem;
+  line-height: 1em;
+  margin: 0 0 0 1rem;
+  flex: 0 0 auto;
+}
+
+.description {
+  text-align: right;
+  margin-bottom: 0;
+  flex: 0 0 40%;
+  max-width: 30%;
+}
+.flex > div:nth-child(3) {
+  background: rgba(65, 128, 41, 0.3);
+}
+
+.flex > div:hover {
+  flex: 3;
+}
+
+	
+	
